@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.leandro1995.parisandlottie.activity.LottieActivity
+import com.leandro1995.parisandlottie.activity.ParisActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +17,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, LottieActivity::class.java))
         }
 
-        parisButton.setOnClickListener { }
+        parisButton.setOnClickListener {
+            startActivity(Intent(this, ParisActivity::class.java))
+        }
     }
 }
