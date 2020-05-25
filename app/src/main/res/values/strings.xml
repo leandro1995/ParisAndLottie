@@ -4,5 +4,7 @@
     <!-- Text -->
     <string name="lottie_text">Lottie</string>
     <string name="paris_text">Paris</string>
+    <string name="style_text">Estilo</string>
+    <string name="event_text">Evento</string>
 
 </resources>
