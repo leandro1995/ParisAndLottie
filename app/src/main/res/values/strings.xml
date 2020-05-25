@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ParisAndLottie</string>
+
+    <!-- Text -->
+    <string name="lottie_text">Lottie</string>
+    <string name="paris_text">Paris</string>
+
 </resources>
